@@ -1,0 +1,97 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    background-image: url(./Images/spilbg.jpg);
+}
+
+  #logo {
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+#topBar{
+    top: 0;
+    background-color: rgba(34, 34, 34, 0.9);
+    grid-column: 1 / 4;
+    grid-row: 1;
+    height: 60px;
+}
+
+nav{
+    margin-right: 40px;
+    margin-top: -65px;
+}
+
+nav a{
+    padding-right: 23px;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    float: right;
+    text-decoration: none;
+}
+
+nav a:hover { 
+    color: #c9c9c9;
+}
+
+.game {
+    margin-top: 200px;
+    margin-left: 450px;
+    justify-content: center;
+    width: 840px;
+    height: 585px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    display: grid;
+    background-color: #434343;
+    grid-column: 1 / 4;
+    grid-row: 5;
+}
+
+#footerlogo{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-left: 50px;
+}
+
+#linkSection{
+    margin-top: 15px;
+    grid-column: 4;
+    display: grid;
+    grid-template-columns: 150px 200px 150px;
+    justify-content: right;
+    line-height: 25px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    font-size: 12px;
+}
+
+#copyright{
+    grid-column: 1 / 5;
+    display: inline-grid;
+    color: white;
+    margin-top: -8px;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 11px;
+}
