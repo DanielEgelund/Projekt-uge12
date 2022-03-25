@@ -58,12 +58,12 @@ function resetBoard(){
 }
 
 // Hvert element har en style.order som via tal sortere rækkefølgen på elementerne.
-// Funktionen giver hvert kort en style.order mellem 0 og 11
+// Funktionen giver hvert kort en style.order mellem 0 og 16
 // Elementer med lavest style.order vises først i rækkefølgen osv.
 
 (function shuffle(){
     kort.forEach(card => {
-        let randomPosition = Math.floor(Math.random() * 12);
+        let randomPosition = Math.floor(Math.random() * 17);
         card.style.order = randomPosition;
     });
 })();
