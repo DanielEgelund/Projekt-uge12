@@ -1,6 +1,5 @@
 let btn = document.getElementById("btn");
 let output = document.getElementById("outputtext");
-
 let number = [Math.floor(Math.random()*1000)]
 
 btn.addEventListener("click", function(){
@@ -13,5 +12,4 @@ btn.addEventListener("click", function(){
     if (input > number){
         output.innerHTML = "Du gættede for højt!"
     }
-
 });
